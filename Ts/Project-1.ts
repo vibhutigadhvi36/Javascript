@@ -263,11 +263,3 @@ let minutes = totalMinutes % 60;
 
 console.log("Hours:", hours);
 console.log("Minutes:", minutes); 
-
-
-
-
-
-
-
-
