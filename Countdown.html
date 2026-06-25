@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown & Quotes App</title>
+    <link rel="stylesheet" href="./Countdown.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Countdown & Quotes Application <img src="./Images/startup.png" alt="startup"></h1>
+
+        <div class="countdown-section">
+            <h2>Countdown Timer For New Year 2027..  <img src="./Images/hourglass.png" alt="hourglass"></h2>
+
+            <div id="timer">
+                Loading...
+            </div>
+
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+        </div>
+
+        <div class="quote-section">
+            <h2>Motivational Quotes <img src="./Images/speech.png" alt="speech"></h2>
+
+            <p id="quote"></p>
+
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeBtn">&times;</span>
+
+            <h2>Welcome!</h2>
+
+            <p>
+                Welcome to Countdown & Quotes App 🚀
+                Stay motivated and achieve your goals!
+            </p>
+        </div>
+    </div>
+
+    <script src="./Countdown.js"></script>
+
+</body>
+</html>
